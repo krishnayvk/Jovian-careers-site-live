@@ -1,0 +1,134 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  text-align: justify;
+  line-height: 1;
+
+}
+.navbar{
+  padding:8px;
+  margin:0;
+ 
+}
+#logo{
+  height:30px;
+}
+#banner{
+  object-fit: cover;
+}
+#about{
+  display:flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding:8px;
+}
+#description{
+  width:50%;
+  padding-right:8px;
+  
+}
+#team{
+  width:50%;
+  
+  
+}
+#team-image{
+  border-radius: 5px;
+  
+  width:100%;
+}
+
+h1{
+  
+  text-align:center;
+  color:darkblue;
+  text-transform: uppercase;
+
+}
+h2{
+  text-align: center;
+}
+#banner{
+  width:100%;
+}
+a{
+  text-decoration: none;
+}
+#team{
+  
+}
+#jobstable{
+  width:100%;
+  border:1px solid grey;
+  border-collapse: collapse;
+}
+.jobs-header-row th{
+  border:1px solid grey;
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(181, 212, 221);
+}
+.jobs-data-row td{
+  border:1px solid grey;
+  padding:6px;
+  
+}
+#jobstable tr:nth-child(odd){
+  background-color: aliceblue;
+}
+#jobs{
+  max-width: 800px;
+  margin: 0 auto;
+  padding:8px;
+}
+h3{
+  margin-bottom: 4px;
+}
+.apply{
+  float:right;
+}
+.footer{
+  list-style: none;
+  padding:8px;
+  margin-top:16px;
+  text-align: center;
+  
+  /* flex can be applied to parent where inline for child */
+  
+}
+#footer-links li{
+display:inline;
+margin: 0 16px;
+color:indigo
+}
+.copyright{
+  text-align: center;
+  color:grey;
+}
+#application{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+#application-form label{
+  font-size: 20px;
+}
+#application-form input,select,#coverletter{
+  padding: 4px;
+  font-size: 15px;
+  margin-top:2px ;
+  border:1.5px solid grey;
+}
+#coverletter{
+  width:80%;
+  font-family: sans-serif;
+}
+
+.form-group{
+  margin: 8px;
+}
+option{
+  padding: 50px;
+}
+

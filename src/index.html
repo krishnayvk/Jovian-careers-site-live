@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            my second web page
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <img id="logo" src="https://jovian.com/jovian_logo.svg" alt="jovian logo">
+        </div>
+        <img id="banner" src="first.jpg" alt="Do something great" height="240">
+       <h1>About jovian</h1>
+       <div id="about">
+        <div id="description">
+            <p style="margin-top:0">At Jovian, we're on a mission to build the world's most highly reputed
+                technical university, and we're building completely online. We offer several
+                beginner friendly courses that are taken by 300,000+ registered users.</p>
+                <p>we also offer new job oppurtunities
+                    <ol>
+                        <li> 
+                            <a href="https://jovian.com/learn/web-development-with-html-and-css">Jovian Full Stack Developer Bootcamp</li></a>
+                        <li>
+                            <a href="https://jovian.com/learn/programming-with-javascript-and-node-js">Jovian Data Science Bootcamp</li></a>
+                    </ol>
+                </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="meating.jpg" alt="Team meating" height="240">
+        </div>
+       </div> 
+       <div id="jobs">
+        <table  id="jobstable">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>city</th>
+                <th>Location</th>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>₹12,00,000</td>
+                <td>Mar 3, 2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full Stack Developer</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>₹15,00,000</td>
+                <td>Feb 1, 2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>San Francisco</td>
+                <td>USA</td>
+                <td>$175,000</td>
+                <td>Dec 22, 2022</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>ML Engineer</td>
+                <td colspan="2" style="text-align: center;">Remote</td>
+                <td>$80,000</td>
+                <td>Sep 19, 2022</td>
+            </tr>
+        
+        </table>
+       </div>
+      <div id="application">
+        <h2>submit your application</h2>
+            <form id="application-form">
+                
+                <div class="form-group">
+                   
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name"name="full name" required >
+                </div>
+                <div class="form-group">
+                    <label for="emai">Email</label><br>
+                    <input type="text" id="email"name="full name" required >
+                </div>
+                <div class="form-group">
+                    <label for="Phno">Phno</label><br>
+                    <input type="tel" id="phno"name="phnumber" required placeholder="+91">
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label><br>
+                    <input type="date" id="date"name="dob" required >
+                </div>
+                <div class="form-group">
+                    <label for="position">Position Applied for</label><br>
+                    <select id="position" name="position applied" required>
+                        <option value="">Select position</option>
+                        <option value="Frontend Developer">Frontend Developer</option>
+                        <option value="Backend developer">Backend developer</option>
+                        <option value="data scientist">data scientist</option>
+                        
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="resume">Upload Resume</label><br>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="coverletter">Cover Letter</label><br>
+                    <textarea id="coverletter" name="coverletter" rows="5" required placeholder="Explain what makes you suitable for the job.."></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        I agree to the terms and conditions
+                    </label>
+                </div>
+        
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+                </div>
+            </form>
+            
+      </div>
+       <div class="footer">
+        <ul id="footer-links">
+            <li>courses</li>
+            <li>programs</li>
+            <li>youtube</li>
+           </ul>
+           <span class="copyright">© 2024,jovian</span>
+       </div>
+       
+       
+       
+      
+
+    </body>
+</html>
